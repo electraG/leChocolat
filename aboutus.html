@@ -2,16 +2,20 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Le Chocolat</title>
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
 </head>
 
 <body>
+    <!--NAVIGATION-->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Le Chocolat</a>
@@ -36,6 +40,7 @@
             </div>
         </div>
     </nav>
+    <!--HEADER-->
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -49,8 +54,7 @@
             </div>
         </div>
     </header>
-
-
+    <!--MAIN CONTENT-->
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -76,6 +80,21 @@
                     euismod mi eget dignissim. Sed eget consequat urna. </p>
             </div>
             <div class="col col-sm">
+                <div class="card">
+                    <h3 class="card-header bg-secondary text-white">Facts At a Glance</h3>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-6">Started</dt>
+                            <dd class="col-6">3 Feb. 2013</dd>
+                            <dt class="col-6">Major Stake Holder</dt>
+                            <dd class="col-6">HW Fine Sweets Inc.</dd>
+                            <dt class="col-6">Last Year's Turnover</dt>
+                            <dd class="col-6">$250,000</dd>
+                            <dt class="col-6">Employees</dt>
+                            <dd class="col-6">10</dd>
+                        </dl>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -97,9 +116,45 @@
                     contributes his innovative ideas in our products. </p>
             </div>
         </div>
+        <div class="row row-content">
+            <div class="col-12 col-sm-9">
+                <h2> Create your milk chocolate!</h2>
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <caption>This recipe makes a bar of about 100g.</caption>
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>Igredients</th>
+                                <th>Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cocoa butter</td>
+                                <td>50 g</td>
+                            </tr>
+                            <tr>
+                                <td>Icing sugar</td>
+                                <td>50 g</td>
+                            </tr>
+                            <tr>
+                                <td>Milk powder (Full fat)</td>
+                                <td>25 g</td>
+                            </tr>
+                            <tr>
+                                <td>Cocoa powder (Unsweetended)</td>
+                                <td>13 g</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-12 col-sm-3">
+            </div>
+        </div>
 
     </div>
-
+    <!--FOOTER-->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -120,13 +175,13 @@
                         HAWAII<br>
                         <i class="fa fa-phone fa-lg"></i>: +987 6543 2100 <br>
                         <i class="fa fa-fax fa-lg"></i>: +987 6543 2101 <br>
-                        <i class="fa fa-envelope fa-lg"></i>: 
+                        <i class="fa fa-envelope fa-lg"></i>:
                         <a href="mailto: chocolat@nomail.net"> chocolat@nomail.net </a>
                     </address>
                 </div>
                 <div class="col-sm align-self-center">
                     <div style="text-align:center">
-                        <a class="btn btn-social-icon btn-google-plus" href ="http://google.com/+">
+                        <a class="btn btn-social-icon btn-google-plus" href="http://google.com/+">
                             <i class="fab fa-google-plus-square"></i></a>
                         <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id=">
                             <i class="fab fa-facebook-square"></i></a>
@@ -148,6 +203,8 @@
             </div>
         </div>
     </footer>
+    <!--END OF FOOTER-->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
