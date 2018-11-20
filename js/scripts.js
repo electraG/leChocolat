@@ -7,3 +7,5 @@ $(document).ready(function(){
         $("#mycarousel").carousel('cycle');
     });
 });
+/*Menu*/
+
